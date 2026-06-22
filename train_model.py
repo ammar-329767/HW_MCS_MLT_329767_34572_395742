@@ -38,7 +38,7 @@ def train_and_save_model():
     scores = model.evaluate(x_test, y_test, verbose=0)
     print(f"Model Accuracy: {scores[1]*100:.2f}%")
 
-    model.save('model.h5')
+    model.save('mnist_model.keras')
     print("Model saved as 'model.h5'")
 
 if __name__ == '__main__':

@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: mlt-app
-    runtime: docker
-    repo: https://github.com/ammar-329767/HW_MCS_MLT_329767_345721_395742
-    branch: main
-    dockerContext: .
-    dockerfilePath: ./Dockerfile

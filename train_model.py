@@ -31,5 +31,5 @@ def train_and_save_model():
     print(f"Model Accuracy: {scores[1]*100:.2f}%")
     model.save('mnist_model.keras')
     print("Model saved as 'model.h5'")
-if name == 'main':
+if __name__ == '__main__':
     train_and_save_model()
